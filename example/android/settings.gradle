@@ -1,0 +1,6 @@
+rootProject.name = 'AvroutepickerExample'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+
+include ':reactnativeavroutepicker'
+project(':reactnativeavroutepicker').projectDir = new File(rootProject.projectDir, '../../android')
