@@ -11,11 +11,11 @@ npm install react-native-avroutepicker
 ## Usage
 
 ```js
-import Avroutepicker from "react-native-avroutepicker";
+import AVRoutePicker from 'react-native-avroutepicker';
 
 // ...
 
-const result = await Avroutepicker.multiply(3, 7);
+<AVRoutePicker />;
 ```
 
 ## Contributing

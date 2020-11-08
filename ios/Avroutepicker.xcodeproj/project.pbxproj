@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-
-
-		5E555C0D2413F4C50049A1A2 /* Avroutepicker.mm in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* Avroutepicker.mm */; };
+		C9E02CDA2558909E00E2355F /* SASAVRoutePickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E02CD92558909E00E2355F /* SASAVRoutePickerManager.m */; };
+		C9E02CDE255890B000E2355F /* SASAVRoutePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E02CDD255890B000E2355F /* SASAVRoutePickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +25,9 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libAvroutepicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAvroutepicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
-
-
-		B3E7B5881CC2AC0600A0062D /* Avroutepicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Avroutepicker.h; sourceTree = "<group>"; };
-		B3E7B5891CC2AC0600A0062D /* Avroutepicker.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Avroutepicker.mm; sourceTree = "<group>"; };
-
+		C9E02CD82558908B00E2355F /* SASAVRoutePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SASAVRoutePickerView.h; sourceTree = "<group>"; };
+		C9E02CD92558909E00E2355F /* SASAVRoutePickerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SASAVRoutePickerManager.m; sourceTree = "<group>"; };
+		C9E02CDD255890B000E2355F /* SASAVRoutePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SASAVRoutePickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +52,9 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-
-
-				B3E7B5881CC2AC0600A0062D /* Avroutepicker.h */,
-				B3E7B5891CC2AC0600A0062D /* Avroutepicker.mm */,
-
+				C9E02CDD255890B000E2355F /* SASAVRoutePickerView.m */,
+				C9E02CD92558909E00E2355F /* SASAVRoutePickerManager.m */,
+				C9E02CD82558908B00E2355F /* SASAVRoutePickerView.h */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,10 +116,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
-
-				5E555C0D2413F4C50049A1A2 /* Avroutepicker.mm in Sources */,
-
+				C9E02CDA2558909E00E2355F /* SASAVRoutePickerManager.m in Sources */,
+				C9E02CDE255890B000E2355F /* SASAVRoutePickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +230,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Avroutepicker;
 				SKIP_INSTALL = YES;
-
 			};
 			name = Debug;
 		};
@@ -254,7 +246,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Avroutepicker;
 				SKIP_INSTALL = YES;
-
 			};
 			name = Release;
 		};

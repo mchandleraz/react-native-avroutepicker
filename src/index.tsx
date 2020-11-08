@@ -1,9 +1,4 @@
-import { NativeModules } from 'react-native';
+import { requireNativeComponent } from 'react-native';
+const AVRoutePicker = requireNativeComponent('AVRoutePicker');
 
-type AvroutepickerType = {
-  multiply(a: number, b: number): Promise<number>;
-};
-
-const { Avroutepicker } = NativeModules;
-
-export default Avroutepicker as AvroutepickerType;
+export default AVRoutePicker as React.ComponentType<any>;
