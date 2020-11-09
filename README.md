@@ -1,6 +1,6 @@
 # react-native-avroutepicker
 
-iOS AVRoutePickerView for React Native
+iOS AVRoutePickerView for React Native. Provides a native AirPlay button and corresponding view for selecting the AV "route". Use this module to add native AirPlay functionality to your React Native app on iOS!
 
 ## Installation
 
