@@ -8,6 +8,11 @@ iOS AVRoutePickerView for React Native. Provides a native AirPlay button and cor
 npm install react-native-avroutepicker
 ```
 
+On iOS, you'll then need to:
+```sh
+cd ios && pod install
+```
+
 ## Usage
 
 ```js
